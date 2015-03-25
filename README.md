@@ -25,8 +25,11 @@ Both of the binary have the same interfaces.
 ```
 
 - Number of Trials to Execute FFT (int)
+
     You omit this when it will use default value (default value: `10000`).
+
 - Number of Trials to Execute Benchmark (int)
+
     You omit this when it will use default value (default value: `10`).
 
 And these binary accept `SIGNAL_LENGTH` environment variable.
